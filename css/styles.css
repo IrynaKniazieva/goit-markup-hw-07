@@ -65,14 +65,12 @@ img {
     border-bottom: 1px solid #EEEEEE;
 }
 
-.logo {
-    padding-top: 24px;
-}
 
 /* Лого */
 
 .logo {
     margin-right: 90px;
+    padding-top: 24px;
     padding-bottom: 24px;
 
     color: #000000;
@@ -143,12 +141,21 @@ img {
     color: var(--accent-color);
 }
 
+/* контакты в шапке */
+
 .list-group {
     display: flex;
-    align-items: center;    
+    align-items: center; 
+   
+    margin-left: auto;
+    padding: 0;
+    
+    list-style: none;
+    
 }
 
-.link-group {
+
+.list-group__link {
     display: flex;
     align-items: center;
 
@@ -167,8 +174,8 @@ img {
     
 }
 
-.link-group:hover,
-.link-group:focus {
+.list-group__link:hover,
+.list-group__link:focus {
     color: var(--accent-color);
     
 }
@@ -178,11 +185,9 @@ img {
     margin-right: 10px;
 }
 
-.list-group {
-    margin-left: auto;
-} 
 
-.list-group .item + .item {
+
+.list-group__item + .list-group__item {
     margin-left: 48px;
 }
 
