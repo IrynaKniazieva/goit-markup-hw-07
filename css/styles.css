@@ -1012,25 +1012,24 @@ border-radius: 4px;
 /* Portfolio */
 
 
-.button-list {
-    margin-bottom: 48px;
-}
-
-.section .button-list {
+.filters__list {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 48px;
 }
 
-.section .item-button {
+
+
+.filter__item {
     margin-right: 8px;
 }
 
-.section .item-button:last-child {
+.filter__item:last-child {
     margin-right: 0px;
 }
 
-.project-button {
+.filters__button {
     padding: 6px 22px;
     border: none;
     border-radius: 6px;
@@ -1049,13 +1048,13 @@ border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-button:hover,
-.project-button:focus {
+.filters__button:hover,
+.filters__button:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
 
-.button-list .current {
+.filters__button--current {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
