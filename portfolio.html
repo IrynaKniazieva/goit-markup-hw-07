@@ -177,67 +177,71 @@
     </main>
 
     <footer class="footer">
-        <div class="container container-footer">
-            <div class="container-address">
-                <a class="footer-logo" href="./index.html"><span class="special ">Web</span>Studio</a>
-                <address>
-                   <ul class="list list-address">
-                       <li class="item address-item">г. Киев, пр-т Леси Украинки, 26</li>
-                       <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                       <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <div class="container container__footer--mode">
+            <div class="address">
+                <a class="logo logo--white" href="./index.html"><span class="logo__span logo__span--accent">Web</span>Studio</a>
+                <address class="address">
+                   <ul class="address__list">
+                       <li class="address__item">г. Киев, пр-т Леси Украинки, 26</li>
+                       <li class="address__item"><a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a></li>
+                       <li class="address__item"><a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a></li>
                    </ul>
                 </address>
             </div>
-            <div class="container-social-footer">
-                <h3 class="subject">Присоединяйтесь</h3>
-                <ul class="list-social">
-                    <li class="item-social">
-                        <a class="link-social" href="" aria-label="иконка Instagram">
-                            <svg class="icons-social" width="20" height="20">
+            <div class="social-footer">
+                <h3 class="footer-subject">Присоединяйтесь</h3>
+                <div class="social">
+                    <ul class="social__list social__list--footer">
+                        <li class="social__item">
+                            <a class="social__link social__link--footer" href="" aria-label="иконка Instagram">
+                            <svg class="social__icon social__icon--footer" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
-                        </a>
-                    </li>
-                    <li class="item-social">
-                        <a class="link-social" href="" aria-label="иконка Twitter">
-                            <svg class="icons-social" width="20" height="20">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link social__link--footer" href="" aria-label="иконка Twitter">
+                            <svg class="social__icon social__icon--footer" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter"></use>
                             </svg>
-                        </a>
-                    </li>
-                    <li class="item-social">
-                        <a class="link-social" href="" aria-label="иконка Facebook">
-                            <svg class="icons-social" width="20" height="20">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link social__link--footer" href="" aria-label="иконка Facebook">
+                            <svg class="social__icon social__icon--footer" width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
-                        </a>
-                    </li>
-                    <li class="item-social">
-                        <a class="link-social" href="" aria-label="иконка Linkedin">
-                            <svg class="icons-social" width="20" height="20">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link social__link--footer" href="" aria-label="иконка Linkedin">
+                            <svg class="social__icon social__icon--footer" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg>
-                        </a>
-                    </li>
-                </ul> 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
          
             </div>
             <form class="form-footer">
-                <div class="container-mail-input">
-                    <h3 class="subject">Подпишитесь на рассылку</h3>
+                <div class="form-container">
+                    <h3 class="footer-subject">Подпишитесь на рассылку</h3>
                     
-                    <label class="form-group-footer">
+                    <label class="group-footer">
                         
-                        <input class="form-input-footer" type="email" name="email" placeholder="E-mail" />
+                        <input class="group-footer__input" type="email" name="email" placeholder="E-mail" />
                     </label>
                 </div>
                 <div class="button-footer">
-                    <button class="form-button-footer" type="submit">Подписаться</button>
-                    <svg class="footer-icon" width="24" height="24">
+                    <button class="button button-footer__button--mode" type="submit">Подписаться</button>
+                    <svg class="button-footer__footer-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-icon-send"></use>
                     </svg>
                 </div>
             </form>
+        
+            
         </div>
     </footer>    
 </body>

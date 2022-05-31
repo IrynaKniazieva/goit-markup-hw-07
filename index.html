@@ -367,39 +367,41 @@
         <!--Постоянные клиенты  -->
         <section class="section">
             <div class="conteiner">
-                <h2 class="section-title">Постоянные клинты</h2>
-                <ul class="list clients-list">
-                    <li class="item clients-item">
-                        <svg class="clients-icon" width="106" height="60">
-                            <use href="./images/icons.svg#icon-client-1"></use>
-                        </svg>
-                    </li>
-                    <li class="item clients-item">
-                        <svg class="clients-icon" width="106" height="60">
-                            <use href="./images/icons.svg#icon-client-2"></use>
-                        </svg>
-                    </li>
-                    <li class="item clients-item">
-                        <svg class="clients-icon" width="106" height="60"> 
-                            <use href="./images/icons.svg#icon-client-3"></use>
-                        </svg>
-                    </li>
-                    <li class="item clients-item">
-                        <svg class="clients-icon" width="106" height="60">
-                            <use href="./images/icons.svg#icon-client-4"></use>
-                        </svg>
-                    </li>
-                    <li class="item clients-item">
-                        <svg class="clients-icon" width="106" height="60">
-                            <use href="./images/icons.svg#icon-client-5"></use>
-                        </svg>
-                    </li>
-                    <li class="item clients-item">
-                        <svg class="clients-icon" width="106" height="60">
-                            <use href="./images/icons.svg#icon-client-6"></use>
-                        </svg>
-                    </li>
-                </ul>
+                <h2 class="container__title">Постоянные клинты</h2>
+                <div class="clients">
+                    <ul class="clients__list">
+                        <li class="clients__item">
+                            <svg class="clients__icon" width="106" height="60">
+                                <use href="./images/icons.svg#icon-client-1"></use>
+                            </svg>
+                        </li>
+                        <li class="clients__item">
+                            <svg class="clients__icon" width="106" height="60">
+                                <use href="./images/icons.svg#icon-client-2"></use>
+                            </svg>
+                        </li>
+                        <li class="item clients__item">
+                            <svg class="clients__icon" width="106" height="60"> 
+                                <use href="./images/icons.svg#icon-client-3"></use>
+                            </svg>
+                        </li>
+                        <li class="item clients__item">
+                            <svg class="clients__icon" width="106" height="60">
+                                <use href="./images/icons.svg#icon-client-4"></use>
+                            </svg>
+                        </li>
+                        <li class="item clients__item">
+                            <svg class="clients__icon" width="106" height="60">
+                                <use href="./images/icons.svg#icon-client-5"></use>
+                            </svg>
+                        </li>
+                        <li class="item clients__item">
+                            <svg class="clients__icon" width="106" height="60">
+                                <use href="./images/icons.svg#icon-client-6"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
             
             </div>
         </section>
@@ -407,21 +409,21 @@
     </main>
 
     <footer class="footer">
-        <div class="container container-footer">
-        <div class="container-address">
+        <div class="container container__footer--mode">
+        <div class="address">
             <a class="logo logo--white" href="./index.html"><span class="logo__span logo__span--accent">Web</span>Studio</a>
-            <address>
-               <ul class="list list-address">
-                   <li class="item address-item">г. Киев, пр-т Леси Украинки, 26</li>
-                   <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                   <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            <address class="address">
+               <ul class="address__list">
+                   <li class="address__item">г. Киев, пр-т Леси Украинки, 26</li>
+                   <li class="address__item"><a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a></li>
+                   <li class="address__item"><a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a></li>
                </ul>
             </address>
         </div>
-        <div class="container-social-footer">
-            <h3 class="subject">Присоединяйтесь</h3>
+        <div class="social-footer">
+            <h3 class="footer-subject">Присоединяйтесь</h3>
             <div class="social">
-                <ul class="social__list">
+                <ul class="social__list social__list--footer">
                     <li class="social__item">
                         <a class="social__link social__link--footer" href="" aria-label="иконка Instagram">
                         <svg class="social__icon social__icon--footer" width="20" height="20">
@@ -455,17 +457,17 @@
      
         </div>
         <form class="form-footer">
-            <div class="container-mail-input">
-                <h3 class="subject">Подпишитесь на рассылку</h3>
+            <div class="form-container">
+                <h3 class="footer-subject">Подпишитесь на рассылку</h3>
                 
-                <label class="form-group-footer">
+                <label class="group-footer">
                     
-                    <input class="form-input-footer" type="email" name="email" placeholder="E-mail" />
+                    <input class="group-footer__input" type="email" name="email" placeholder="E-mail" />
                 </label>
             </div>
             <div class="button-footer">
-                <button class="form-button-footer" type="submit">Подписаться</button>
-                <svg class="footer-icon" width="24" height="24">
+                <button class="button button-footer__button--mode" type="submit">Подписаться</button>
+                <svg class="button-footer__footer-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-icon-send"></use>
                 </svg>
             </div>
