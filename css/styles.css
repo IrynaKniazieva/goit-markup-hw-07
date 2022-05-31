@@ -261,7 +261,7 @@ ul,
 
 
 
-.button--hero {
+.button__hero--mode {
     padding: 10px 32px;
     margin-right: 467px;
     margin-left: 502px;}
@@ -508,7 +508,7 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
   }
 
-.button--modal {
+.button__modal--mode {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 55px;
@@ -522,7 +522,7 @@ letter-spacing: 0.03em;
 
 /* секции особенности  */
 
-.section-feature {
+.section__feature--mode {
     padding-bottom: 0;
 } 
 
@@ -639,7 +639,7 @@ letter-spacing: 0.03em;
   }
 
 /* секция Наша команда */
-.section-team {
+.section--mode {
     
     margin-left: auto;
     margin-right: auto;
@@ -650,25 +650,31 @@ letter-spacing: 0.03em;
     margin-bottom: 50px;
 }
 
-.team-list .item {
+.team__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team__item {
     background-color: var(--white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
-
-.section-team .list {
-    display: flex;
-    justify-content: space-between;
-}
-.section-team .item {
     margin-right: 30px;
 }
 
-.section-team .item:last-child{
+.team__item:last-child{
     margin-right: 0;
 }
 
-.team-list .section-subtitle {  
+.data-team {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.data-team__subtitle {  
+    margin-bottom: 10px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -677,38 +683,19 @@ letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
-.team-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.team {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.team-list .desc {
+.data-team__desc{
+    margin-bottom: 16px;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-}
-
-.section-subtitle {
-    margin-bottom: 10px;
-}
-
-.desc {
-    margin-bottom: 16px;
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
 
     color: var(--primary-text-color);
 }
+/* List social  */
 
-.list-social {
+.social__list {
     padding: 0;
     list-style: none;
     display: flex;
@@ -717,7 +704,7 @@ letter-spacing: 0.03em;
 }
 
 
-.link-social {
+.social__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -732,21 +719,21 @@ letter-spacing: 0.03em;
     
 }
 
-.list-social .item-social {
+.social__item {
     margin-right: 10px;
 }
 
-.list-social .item-social:last-child {
+.social__item:last-child {
     margin-right: 0;
 }  
 
-.link-social:hover,
-.link-social:focus {
+.social__link:hover,
+.social__link:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
 
-.icons-social {
+.social__icon {
     fill: currentColor;
        
 }
